@@ -1,170 +1,9 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
 
-<head>
-   <meta charset="utf-8" />
-   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="" />
+<?php include "include/header.php" ?>
 
-   <!-- Site Title -->
-   <title>Hammad Irfan Rathore - Portfolio Website</title>
+<?php  include "templates/header-temp.php" ?>
 
-   <!-- Place favicon.ico in the root directory -->
-   <link rel="apple-touch-icon" href="./assets/img/1.png" />
-   <link rel="shortcut icon" type="image/png" href="./assets/img/1.png" />
-
-   <!-- CSS here -->
-   <link rel="stylesheet" href="assets/css/animate.min.css" />
-   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-   <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
-   <link rel="stylesheet" href="assets/css/flaticon_gerold.css" />
-   <link rel="stylesheet" href="assets/css/nice-select.css" />
-   <link rel="stylesheet" href="assets/css/backToTop.css" />
-   <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-   <link rel="stylesheet" href="assets/css/swiper.min.css" />
-   <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
-   <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-   <link rel="stylesheet" href="assets/css/main.css" />
-   <link rel="stylesheet" href="assets/css/light-mode.css" />
-   <link rel="stylesheet" href="assets/css/meanmenu.css" />
-   <link rel="stylesheet" href="assets/css/responsive.css" />
-</head>
-
-<body>
-   <!-- Preloader Area Start -->
-   <div class="preloader">
-      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-         <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-      </svg>
-
-      <div class="preloader-heading">
-         <div class="load-text">
-            <span>L</span>
-            <span>o</span>
-            <span>a</span>
-            <span>d</span>
-            <span>i</span>
-            <span>n</span>
-            <span>g</span>
-         </div>
-      </div>
-   </div>
-   <!-- Preloader Area End -->
-
-   <!-- start: Back To Top -->
-   <div class="progress-wrap" id="scrollUp">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
-   </div>
-   <!-- end: Back To Top -->
-
-   <!-- HEADER START -->
-   <header class="tj-header-area header-absolute">
-      <div class="container">
-         <div class="row">
-            <div class="col-12 d-flex flex-wrap align-items-center">
-               <div class="logo-box">
-                  <a href="index.html">
-                     <img src="assets/img/logo/logo.png" alt="" />
-                  </a>
-               </div>
-
-               <div class="header-menu" id="headerMenu">
-                  <nav>
-                     <ul>
-                        <li>
-                           <a  href="index.html">Home</a>
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolios</a></li>
-                        <li class="has-dropdown">
-                           <a href="blog.html">Blog</a>
-                           <ul class="sub-menu">
-                              <li>
-                                 <a href="blog.html">Blog</a>
-                              </li>
-                              <li>
-                                 <a href="blog-details.html">Blog Details</a>
-                              </li>
-                           </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </nav>
-               </div>
-               <div class="mobile-menu d-lg-none"></div>
-               <div class="header-button">
-                  <a href="#" class="btn tj-btn-primary">Hire me!</a>
-               </div>
-               <div class="menu-bar d-lg-none">
-                  <button>
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
-   <header class="tj-header-area header-2 header-sticky sticky-out">
-      <div class="container">
-         <div class="row">
-            <div class="col-12 d-flex flex-wrap align-items-center">
-               <div class="logo-box">
-                  <a href="index.html">
-                     <img src="assets/img/logo/logo.png" alt="" />
-                  </a>
-               </div>
-            
-               <div class="header-menu">
-                  <nav>
-                     <ul>
-                        <li class="">
-                           <a class="" href="index.html">Home</a>
-                          
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolios</a></li>
-                        <li class="has-dropdown">
-                           <a href="blog.html">Blog</a>
-                           <ul class="sub-menu">
-                              <li>
-                                 <a href="blog.html">Blog</a>
-                              </li>
-                              <li>
-                                 <a href="blog-details.html">Blog Details</a>
-                              </li>
-                           </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </nav>
-               </div>
-               <div class="mobile-menu d-lg-none"></div>
-               <div class="header-button">
-                  <a href="#" class="btn tj-btn-primary">Hire me!</a>
-               </div>
-               <div class="menu-bar d-lg-none">
-                  <button>
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
-   <!-- HEADER END -->
-
-   <main class="site-content" id="content">
+<main class="site-content" id="content">
       <!-- HERO SECTION START -->
       <section class="hero-section d-flex align-items-center" id="intro">
          <div class="intro_text">
@@ -483,7 +322,7 @@
                      <div class="gutter-sizer"></div>
                      <div class="portfolio-item branding">
                         <div class="image-box">
-                           <img src="assets/img/portfolio/2.jpg" alt="" />
+                           <img src="assets/img/portfolio/myproject1.png" alt="" />
                         </div>
                         <div class="content-box">
                            <h3 class="portfolio-title">Deloitte</h3>
@@ -494,7 +333,7 @@
                      </div>
                      <div class="portfolio-item uxui">
                         <div class="image-box">
-                           <img src="assets/img/portfolio/1.jpg" alt="" />
+                           <img src="assets/img/portfolio/myproject2.png" alt="" />
                         </div>
                         <div class="content-box">
                            <h3 class="portfolio-title">New Age</h3>
@@ -505,7 +344,7 @@
                      </div>
                      <div class="portfolio-item mobile-app">
                         <div class="image-box">
-                           <img src="assets/img/portfolio/3.jpg" alt="" />
+                           <img src="assets/img/portfolio/myproject3.png" alt="" />
                         </div>
                         <div class="content-box">
                            <h3 class="portfolio-title">Sebastian</h3>
@@ -516,7 +355,7 @@
                      </div>
                      <div class="portfolio-item branding">
                         <div class="image-box">
-                           <img src="assets/img/portfolio/4.jpg" alt="" />
+                           <img src="assets/img/portfolio/myproject4.png" alt="" />
                         </div>
                         <div class="content-box">
                            <h3 class="portfolio-title">Mochnix</h3>
@@ -1310,93 +1149,3 @@
       </div>
       <!-- END: Contact Form Fail Modal Message End -->
    </main>
-
-   <!-- FOOTER AREA START -->
-   <footer class="tj-footer-area">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12 text-center">
-               <div class="footer-logo-box">
-                  <a href="#"><img src="assets/img/logo/logo.png" alt="" /></a>
-               </div>
-               <div class="footer-menu">
-                  <nav>
-                     <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolios</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </nav>
-               </div>
-               <div class="copy-text">
-                  <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">ThemeJunction</a></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer>
-   <!-- FOOTER AREA END -->
-
-   <!-- JSS here -->
-   <script src="assets/js/jquery.min.js"></script>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
-   <script src="assets/js/nice-select.min.js"></script>
-   <script src="assets/js/backToTop.js"></script>
-   <script src="assets/js/appear.min.js"></script>
-   <script src="assets/js/wow.min.js"></script>
-   <script src="assets/js/gsap.min.js"></script>
-   <script src="assets/js/ScrollTrigger.min.js"></script>
-   <script src="assets/js/lenis.min.js"></script>
-   <script src="assets/js/lightcase.js"></script>
-   <script src="assets/js/owl.carousel.min.js"></script>
-   <script src="assets/js/swiper.min.js"></script>
-   <script src="assets/js/imagesloaded-pkgd.js"></script>
-   <script src="assets/js/isotope.pkgd.min.js"></script>
-   <script src="assets/js/odometer.min.js"></script>
-   <script src="assets/js/magnific-popup.js"></script>
-   <script src="assets/js/validate.min.js"></script>
-   <script src="assets/js/meanmenu.js"></script>
-   <script src="assets/js/main.js"></script>
-
-   <script>
-      var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?28052';
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = url;
-      var options = {
-      "enabled":true,
-      "chatButtonSetting":{
-          "backgroundColor":"#00e785",
-          "ctaText":"Chat with us",
-          "borderRadius":"25",
-          "marginLeft": "0",
-          "marginRight": "20",
-          "marginBottom": "20",
-          "ctaIconWATI":false,
-          "position":"right"
-      },
-      "brandSetting":{
-          "brandName":"Wati",
-          "brandSubTitle":"undefined",
-          "brandImg":"https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
-          "welcomeText":"Hi there!\nHow can I help you?",
-          "messageText":"Hello, %0A I have a question about {{page_link}}",
-          "backgroundColor":"#00e785",
-          "ctaText":"Chat with us",
-          "borderRadius":"25",
-          "autoShow":false,
-          "phoneNumber":"923145506866"
-      }
-      };
-      s.onload = function() {
-          CreateWhatsappChatWidget(options);
-      };
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-  </script>
-
-</body>
-
-</html>
